@@ -57,7 +57,7 @@ module cordic_stage(
 		tx = x_i - (((y_i>>>k) ^ d) - d);
 		ty = y_i + (((x_i>>>k) ^ d) - d);
 		tz = z_i - ((cordic_ctab[k] ^ d) - d);
-		x_o = tx; y_o = ty; z_o = tz;
+		x_o <= tx; y_o <= ty; z_o <= tz;
     end
 endmodule
 
@@ -86,16 +86,18 @@ module cordic_test(
 
     );
     always #10 clk = !clk;
-    real p = (10/50.0)*3.1415926535897932384626433 / 2;
-    real p0 = p * `MUL;
+    real p;
+    real p0;
     
     int s, c;
     cordic_pipeline pipe(p0, s, c, 32);
     initial
     begin    
+    		p = (50/50.0)*3.1415926535897932384626433 / 2;
+    		p0 = p * `MUL;
 			//use 32 iterations
 			//these values should be nearly equal
-			repeat(100)
+			repeat(32)
 			@(clk);
 			$display("%.32f : %.32f\n", s / `MUL, $sin(p));    
 
