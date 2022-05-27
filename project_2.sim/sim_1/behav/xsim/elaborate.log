@@ -1,0 +1,49 @@
+Vivado Simulator 2019.1
+Copyright 1986-1999, 2001-2019 Xilinx, Inc. All Rights Reserved.
+Running: D:/programs/vivado/Vivado/2019.1/bin/unwrapped/win64.o/xelab.exe -wto 4cae06a5cdfe4372a6dbe43393c20e09 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot CordicTest_behav xil_defaultlib.CordicTest xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3091] actual bit length 64 differs from formal bit length 32 for port 'theta' [C:/Code/vivado/my_cordic/project_2/project_2.srcs/sim_1/new/cordic-test.sv:13]
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline.sv" Line 3. Module CordicPipeline_default doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv" Line 3. Module CordicPipelineStage doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package xil_defaultlib.$unit_cordic_pipeline_sv
+Compiling module xil_defaultlib.CordicPipelineStage
+Compiling module xil_defaultlib.CordicPipeline_default
+Compiling module xil_defaultlib.CordicTest
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot CordicTest_behav

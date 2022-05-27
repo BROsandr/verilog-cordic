@@ -1,0 +1,9 @@
+0.6
+2019.1
+May 24 2019
+15:06:07
+C:/Code/vivado/my_cordic/project_2/project_2.sim/sim_1/behav/xsim/glbl.v,1558713910,verilog,,,,glbl,,,,,,,,
+C:/Code/vivado/my_cordic/project_2/project_2.srcs/sim_1/new/cordic-test.sv,1653680042,systemVerilog,,,,CordicTest,,,../../../../project_2.srcs/sources_1/new,,,,,
+C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/constants.vh,1653676331,verilog,,,,,,,,,,,,
+C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline.sv,1653676093,systemVerilog,C:/Code/vivado/my_cordic/project_2/project_2.srcs/sim_1/new/cordic-test.sv;C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv,C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv,C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/constants.vh,$unit_cordic_pipeline_sv;CordicPipeline,,,../../../../project_2.srcs/sources_1/new,,,,,
+C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/cordic_pipeline_stage.sv,1653676115,systemVerilog,,C:/Code/vivado/my_cordic/project_2/project_2.srcs/sim_1/new/cordic-test.sv,C:/Code/vivado/my_cordic/project_2/project_2.srcs/sources_1/new/constants.vh,CordicPipelineStage,,,../../../../project_2.srcs/sources_1/new,,,,,
